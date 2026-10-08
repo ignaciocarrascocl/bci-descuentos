@@ -1,0 +1,6986 @@
+{
+  "meta": {
+    "generado": "2026-10-08T16:17:23.310Z",
+    "total": 165,
+    "fuente": "data/source-beneficios.json",
+    "notaDias": "El dataset de origen no incluye día de la semana: `dias` se deriva de forma determinista. Si el origen trae `dias`, se respeta.",
+    "meses": [
+      "ene",
+      "feb",
+      "mar",
+      "abr",
+      "may",
+      "jun",
+      "jul",
+      "ago",
+      "sep",
+      "oct",
+      "nov",
+      "dic"
+    ]
+  },
+  "facetas": {
+    "categorias": [
+      "Comercios",
+      "CyberClicks",
+      "Destacados",
+      "Panoramas",
+      "Restaurantes",
+      "Viajes"
+    ],
+    "regiones": [
+      "Antofagasta",
+      "Araucanía",
+      "Arica y Parinacota",
+      "Atacama",
+      "Biobío",
+      "Coquimbo",
+      "INTERNACIONAL",
+      "Los Lagos",
+      "Los Ríos",
+      "Magallanes",
+      "Maule",
+      "Ñuble",
+      "O'Higgins",
+      "Región Metropolitana",
+      "Tarapacá",
+      "Valparaíso"
+    ],
+    "comunas": [
+      "Aeropuertos Nacionales / Int.",
+      "Antofagasta",
+      "Arica",
+      "Brasil",
+      "Calama",
+      "Caribe",
+      "Chillán",
+      "Concepción",
+      "Concón",
+      "Copiapó",
+      "Curauma",
+      "Curicó",
+      "El Molle",
+      "Europa",
+      "Iquique",
+      "La Calera",
+      "La Serena",
+      "Las Condes",
+      "Lo Barnechea",
+      "Los Andes",
+      "Los Ángeles",
+      "México",
+      "Peralillo",
+      "Pichilemu",
+      "Placilla",
+      "Providencia",
+      "Pucón",
+      "Pudahuel (AMB)",
+      "Puerto Montt",
+      "Puerto Natales",
+      "Puerto Varas",
+      "Quillota",
+      "Quilpué",
+      "Rancagua",
+      "Reñaca",
+      "San Felipe",
+      "San Pedro de la Paz",
+      "Santa Cruz",
+      "Santiago",
+      "Sudamérica",
+      "Talca",
+      "Temuco",
+      "Valdivia",
+      "Valparaíso",
+      "Varios Destinos",
+      "Villa Alemana",
+      "Viña del Mar",
+      "Vitacura"
+    ],
+    "canales": [
+      "PRESENCIAL",
+      "ONLINE",
+      "APP_PROPIA",
+      "WHATSAPP"
+    ],
+    "dias": [
+      "lunes",
+      "martes",
+      "miercoles",
+      "jueves",
+      "viernes",
+      "sabado",
+      "domingo"
+    ],
+    "mediosPago": [
+      "CREDITO",
+      "DEBITO"
+    ],
+    "tipos": [
+      "Descuento",
+      "Cashback"
+    ],
+    "topes": [
+      5000,
+      10000,
+      20000,
+      30000,
+      50000,
+      100000
+    ]
+  },
+  "beneficios": [
+    {
+      "id": 3,
+      "slug": "mcdonald-s",
+      "comercio": "McDonald's",
+      "categoria": "Destacados",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "APP_PROPIA"
+      ],
+      "canalLabel": "App Bci",
+      "dias": [
+        "miercoles",
+        "sabado",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "nacional",
+      "descripcion": "App Bci · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/mcdonald-s.svg",
+      "monograma": "MC",
+      "color": "#6366F1",
+      "colorFin": "#312E81",
+      "destacado": true
+    },
+    {
+      "id": 1,
+      "slug": "starbucks",
+      "comercio": "Starbucks",
+      "categoria": "Destacados",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 30,
+      "valorTexto": "30% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/starbucks.svg",
+      "monograma": "ST",
+      "color": "#6366F1",
+      "colorFin": "#312E81",
+      "destacado": true
+    },
+    {
+      "id": 157,
+      "slug": "viajes-bci-europa",
+      "comercio": "Viajes Bci Europa",
+      "categoria": "CyberClicks",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 30,
+      "valorTexto": "30% de descuento",
+      "tope": 80000,
+      "topeTexto": "$80.000",
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "INTERNACIONAL"
+      ],
+      "comunas": [
+        "Europa"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "miercoles",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "internacional",
+      "descripcion": "Hasta $80.000 de tope · Online · Tarjeta de crédito",
+      "ubicacion": "Internacional",
+      "imagen": "/img/comercios/viajes-bci-europa.svg",
+      "monograma": "VB",
+      "color": "#22C55E",
+      "colorFin": "#047857",
+      "destacado": true
+    },
+    {
+      "id": 161,
+      "slug": "despegar-whatsapp",
+      "comercio": "Despegar WhatsApp",
+      "categoria": "CyberClicks",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "INTERNACIONAL"
+      ],
+      "comunas": [
+        "Varios Destinos"
+      ],
+      "canales": [
+        "WHATSAPP"
+      ],
+      "canalLabel": "WhatsApp",
+      "dias": [
+        "miercoles",
+        "sabado",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "internacional",
+      "descripcion": "WhatsApp · Tarjeta de crédito",
+      "ubicacion": "Internacional",
+      "imagen": "/img/comercios/despegar-whatsapp.svg",
+      "monograma": "DW",
+      "color": "#22C55E",
+      "colorFin": "#047857",
+      "destacado": true
+    },
+    {
+      "id": 162,
+      "slug": "jetsmart-cyber",
+      "comercio": "JetSMART Cyber",
+      "categoria": "CyberClicks",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "sabado"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "nacional",
+      "descripcion": "Online · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/jetsmart-cyber.svg",
+      "monograma": "JC",
+      "color": "#22C55E",
+      "colorFin": "#047857",
+      "destacado": true
+    },
+    {
+      "id": 164,
+      "slug": "mercado-libre-herramientas",
+      "comercio": "Mercado Libre Herramientas",
+      "categoria": "CyberClicks",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 10000,
+      "topeTexto": "$10.000",
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "nacional",
+      "descripcion": "Hasta $10.000 de tope · Online · Tarjeta de crédito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/mercado-libre-herramientas.svg",
+      "monograma": "ML",
+      "color": "#22C55E",
+      "colorFin": "#047857",
+      "destacado": true
+    },
+    {
+      "id": 2,
+      "slug": "salcobrand",
+      "comercio": "Salcobrand",
+      "categoria": "Destacados",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "miercoles",
+        "sabado"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/salcobrand.svg",
+      "monograma": "SA",
+      "color": "#6366F1",
+      "colorFin": "#312E81",
+      "destacado": true
+    },
+    {
+      "id": 165,
+      "slug": "salcobrand-cl-cyber",
+      "comercio": "Salcobrand.cl Cyber",
+      "categoria": "CyberClicks",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 10000,
+      "topeTexto": "$10.000",
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "martes"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "nacional",
+      "descripcion": "Hasta $10.000 de tope · Online · Tarjeta de crédito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/salcobrand-cl-cyber.svg",
+      "monograma": "SC",
+      "color": "#22C55E",
+      "colorFin": "#047857",
+      "destacado": true
+    },
+    {
+      "id": 160,
+      "slug": "viajes-bci-caribe",
+      "comercio": "Viajes Bci Caribe",
+      "categoria": "CyberClicks",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 80000,
+      "topeTexto": "$80.000",
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "INTERNACIONAL"
+      ],
+      "comunas": [
+        "Caribe",
+        "Sudamérica"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "miercoles",
+        "sabado",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "internacional",
+      "descripcion": "Hasta $80.000 de tope · Online · Tarjeta de crédito",
+      "ubicacion": "Internacional",
+      "imagen": "/img/comercios/viajes-bci-caribe.svg",
+      "monograma": "VB",
+      "color": "#22C55E",
+      "colorFin": "#047857",
+      "destacado": true
+    },
+    {
+      "id": 158,
+      "slug": "viajes-bci-nacional",
+      "comercio": "Viajes Bci Nacional",
+      "categoria": "CyberClicks",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 15,
+      "valorTexto": "15% de descuento",
+      "tope": 30000,
+      "topeTexto": "$30.000",
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "lunes",
+        "jueves",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "nacional",
+      "descripcion": "Hasta $30.000 de tope · Online · Tarjeta de crédito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/viajes-bci-nacional.svg",
+      "monograma": "VB",
+      "color": "#22C55E",
+      "colorFin": "#047857",
+      "destacado": true
+    },
+    {
+      "id": 163,
+      "slug": "mercado-libre-tecnologia",
+      "comercio": "Mercado Libre Tecnología",
+      "categoria": "CyberClicks",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 10,
+      "valorTexto": "10% de descuento",
+      "tope": 30000,
+      "topeTexto": "$30.000",
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "martes",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "nacional",
+      "descripcion": "Hasta $30.000 de tope · Online · Tarjeta de crédito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/mercado-libre-tecnologia.svg",
+      "monograma": "ML",
+      "color": "#22C55E",
+      "colorFin": "#047857",
+      "destacado": true
+    },
+    {
+      "id": 159,
+      "slug": "viajes-bci-sudamerica",
+      "comercio": "Viajes Bci Sudamérica",
+      "categoria": "CyberClicks",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 10,
+      "valorTexto": "10% de descuento",
+      "tope": 50000,
+      "topeTexto": "$50.000",
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "INTERNACIONAL"
+      ],
+      "comunas": [
+        "Sudamérica"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "martes",
+        "viernes",
+        "sabado"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "internacional",
+      "descripcion": "Hasta $50.000 de tope · Online · Tarjeta de crédito",
+      "ubicacion": "Internacional",
+      "imagen": "/img/comercios/viajes-bci-sudamerica.svg",
+      "monograma": "VB",
+      "color": "#22C55E",
+      "colorFin": "#047857",
+      "destacado": true
+    },
+    {
+      "id": 4,
+      "slug": "copec",
+      "comercio": "Copec",
+      "categoria": "Destacados",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 7,
+      "valorTexto": "7% de descuento",
+      "tope": 7000,
+      "topeTexto": "$7.000",
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "APP_PROPIA"
+      ],
+      "canalLabel": "App Bci",
+      "dias": [
+        "domingo"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "nacional",
+      "descripcion": "Hasta $7.000 de tope · App Bci · Tarjeta de crédito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/copec.svg",
+      "monograma": "CO",
+      "color": "#6366F1",
+      "colorFin": "#312E81",
+      "destacado": true
+    },
+    {
+      "id": 5,
+      "slug": "pedidosya-market",
+      "comercio": "PedidosYa Market",
+      "categoria": "Destacados",
+      "tipo": "Cashback",
+      "moneda": "MULTIPLICADOR",
+      "valor": 5,
+      "valorTexto": "5x en acumulación",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "viernes"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "nacional",
+      "descripcion": "Online · Tarjeta de crédito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/pedidosya-market.svg",
+      "monograma": "PM",
+      "color": "#6366F1",
+      "colorFin": "#312E81",
+      "destacado": true
+    },
+    {
+      "id": 6,
+      "slug": "viajes-bci",
+      "comercio": "Viajes Bci",
+      "categoria": "Destacados",
+      "tipo": "Cashback",
+      "moneda": "MULTIPLICADOR",
+      "valor": 3,
+      "valorTexto": "3x en acumulación",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "martes",
+        "jueves",
+        "sabado"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "nacional",
+      "descripcion": "Online · Tarjeta de crédito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/viajes-bci.svg",
+      "monograma": "VB",
+      "color": "#6366F1",
+      "colorFin": "#312E81",
+      "destacado": true
+    },
+    {
+      "id": 121,
+      "slug": "pedidosya-plus",
+      "comercio": "PedidosYa Plus",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 100,
+      "valorTexto": "100% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "APP_PROPIA"
+      ],
+      "canalLabel": "App Bci",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "nacional",
+      "descripcion": "App Bci · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/pedidosya-plus.svg",
+      "monograma": "PP",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 148,
+      "slug": "salones-vip-primeclass",
+      "comercio": "Salones Vip Primeclass",
+      "categoria": "Viajes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 100,
+      "valorTexto": "100% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "PREMIUM_ONLY",
+      "premiumOnly": true,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Aeropuertos Nacionales / Int."
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "martes",
+        "jueves",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Presencial · Tarjeta de crédito · Solo tarjetas Premium/Black",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/salones-vip-primeclass.svg",
+      "monograma": "SV",
+      "color": "#06B6D4",
+      "colorFin": "#0E7490",
+      "destacado": false
+    },
+    {
+      "id": 139,
+      "slug": "cinepolis-entradas-2d",
+      "comercio": "Cinépolis Entradas 2D",
+      "categoria": "Panoramas",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 50,
+      "valorTexto": "50% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "martes",
+        "viernes",
+        "sabado"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Online y presencial · Tarjeta de crédito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/cinepolis-entradas-2d.svg",
+      "monograma": "CE",
+      "color": "#A855F7",
+      "colorFin": "#6D28D9",
+      "destacado": false
+    },
+    {
+      "id": 138,
+      "slug": "cinepolis-entradas-premium",
+      "comercio": "Cinépolis Entradas Premium",
+      "categoria": "Panoramas",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 50,
+      "valorTexto": "50% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "PREMIUM_ONLY",
+      "premiumOnly": true,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "jueves",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Online y presencial · Tarjeta de crédito · Solo tarjetas Premium/Black",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/cinepolis-entradas-premium.svg",
+      "monograma": "CE",
+      "color": "#A855F7",
+      "colorFin": "#6D28D9",
+      "destacado": false
+    },
+    {
+      "id": 13,
+      "slug": "la-cocina-de-javier",
+      "comercio": "La Cocina de Javier",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 50,
+      "valorTexto": "50% de descuento",
+      "tope": 100000,
+      "topeTexto": "$100.000",
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "PREMIUM_ONLY",
+      "premiumOnly": true,
+      "regiones": [
+        "Región Metropolitana"
+      ],
+      "comunas": [
+        "Vitacura"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "miercoles",
+        "sabado"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $100.000 de tope · Presencial · Tarjeta de crédito · Solo tarjetas Premium/Black",
+      "ubicacion": "Región Metropolitana",
+      "imagen": "/img/comercios/la-cocina-de-javier.svg",
+      "monograma": "LC",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 97,
+      "slug": "starbucks-comercios",
+      "comercio": "Starbucks Comercios",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 50,
+      "valorTexto": "50% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "martes",
+        "viernes",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/starbucks-comercios.svg",
+      "monograma": "SC",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 131,
+      "slug": "casa-morandi",
+      "comercio": "Casa Morandi",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 45,
+      "valorTexto": "45% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Online y presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/casa-morandi.svg",
+      "monograma": "CM",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 15,
+      "slug": "akun-bar-marriott",
+      "comercio": "Akún Bar Marriott",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 100000,
+      "topeTexto": "$100.000",
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "PREMIUM_ONLY",
+      "premiumOnly": true,
+      "regiones": [
+        "Región Metropolitana"
+      ],
+      "comunas": [
+        "Las Condes"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "martes",
+        "sabado"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $100.000 de tope · Presencial · Tarjeta de crédito · Solo tarjetas Premium/Black",
+      "ubicacion": "Región Metropolitana",
+      "imagen": "/img/comercios/akun-bar-marriott.svg",
+      "monograma": "AB",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 19,
+      "slug": "amalfi-trattoria-bar",
+      "comercio": "Amalfi Trattoria Bar",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Arica y Parinacota"
+      ],
+      "comunas": [
+        "Arica"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "viernes"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Arica y Parinacota",
+      "imagen": "/img/comercios/amalfi-trattoria-bar.svg",
+      "monograma": "AT",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 31,
+      "slug": "amphora-restobar",
+      "comercio": "Amphora Restobar",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Antofagasta"
+      ],
+      "comunas": [
+        "Antofagasta"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "sabado"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Antofagasta",
+      "imagen": "/img/comercios/amphora-restobar.svg",
+      "monograma": "AR",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 75,
+      "slug": "anna-bistro",
+      "comercio": "Anna Bistro",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Biobío"
+      ],
+      "comunas": [
+        "Los Ángeles"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "viernes"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Biobío",
+      "imagen": "/img/comercios/anna-bistro.svg",
+      "monograma": "AB",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 9,
+      "slug": "ari-nikkei",
+      "comercio": "Ari Nikkei",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "PREMIUM_ONLY",
+      "premiumOnly": true,
+      "regiones": [
+        "Región Metropolitana"
+      ],
+      "comunas": [
+        "Las Condes",
+        "Lo Barnechea"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "miercoles",
+        "viernes",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Tarjeta de crédito · Solo tarjetas Premium/Black",
+      "ubicacion": "Región Metropolitana",
+      "imagen": "/img/comercios/ari-nikkei.svg",
+      "monograma": "AN",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 80,
+      "slug": "augusta-bar",
+      "comercio": "Augusta Bar",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Biobío"
+      ],
+      "comunas": [
+        "Concepción"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "jueves",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Biobío",
+      "imagen": "/img/comercios/augusta-bar.svg",
+      "monograma": "AB",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 88,
+      "slug": "bar-bundor",
+      "comercio": "Bar Bundor",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Los Ríos"
+      ],
+      "comunas": [
+        "Valdivia"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Los Ríos",
+      "imagen": "/img/comercios/bar-bundor.svg",
+      "monograma": "BB",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 61,
+      "slug": "bocas-del-mar",
+      "comercio": "Bocas del Mar",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "O'Higgins"
+      ],
+      "comunas": [
+        "Pichilemu"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "O'Higgins",
+      "imagen": "/img/comercios/bocas-del-mar.svg",
+      "monograma": "BD",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 41,
+      "slug": "burger-house",
+      "comercio": "Burger House",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Valparaíso"
+      ],
+      "comunas": [
+        "Viña del Mar",
+        "Placilla"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "martes",
+        "jueves"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Valparaíso",
+      "imagen": "/img/comercios/burger-house.svg",
+      "monograma": "BH",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 17,
+      "slug": "cafe-med-marriott",
+      "comercio": "Café Med Marriott",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 100000,
+      "topeTexto": "$100.000",
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "PREMIUM_ONLY",
+      "premiumOnly": true,
+      "regiones": [
+        "Región Metropolitana"
+      ],
+      "comunas": [
+        "Las Condes"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $100.000 de tope · Presencial · Tarjeta de crédito · Solo tarjetas Premium/Black",
+      "ubicacion": "Región Metropolitana",
+      "imagen": "/img/comercios/cafe-med-marriott.svg",
+      "monograma": "CM",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 10,
+      "slug": "capogrossi",
+      "comercio": "Capogrossi",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 100000,
+      "topeTexto": "$100.000",
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "PREMIUM_ONLY",
+      "premiumOnly": true,
+      "regiones": [
+        "Región Metropolitana"
+      ],
+      "comunas": [
+        "Las Condes"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "miercoles",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $100.000 de tope · Presencial · Tarjeta de crédito · Solo tarjetas Premium/Black",
+      "ubicacion": "Región Metropolitana",
+      "imagen": "/img/comercios/capogrossi.svg",
+      "monograma": "CA",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 46,
+      "slug": "casa-renaca",
+      "comercio": "Casa Reñaca",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Valparaíso"
+      ],
+      "comunas": [
+        "Viña del Mar"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "viernes"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Valparaíso",
+      "imagen": "/img/comercios/casa-renaca.svg",
+      "monograma": "CR",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 34,
+      "slug": "costa-real-hotel",
+      "comercio": "Costa Real Hotel",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Coquimbo"
+      ],
+      "comunas": [
+        "La Serena"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "miercoles",
+        "sabado"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Coquimbo",
+      "imagen": "/img/comercios/costa-real-hotel.svg",
+      "monograma": "CR",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 16,
+      "slug": "cuerovaca",
+      "comercio": "Cuerovaca",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "PREMIUM_ONLY",
+      "premiumOnly": true,
+      "regiones": [
+        "Región Metropolitana"
+      ],
+      "comunas": [
+        "Vitacura"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "jueves",
+        "sabado"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Tarjeta de crédito · Solo tarjetas Premium/Black",
+      "ubicacion": "Región Metropolitana",
+      "imagen": "/img/comercios/cuerovaca.svg",
+      "monograma": "CU",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 100,
+      "slug": "desconatta",
+      "comercio": "Desconatta",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "sabado"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Online y presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/desconatta.svg",
+      "monograma": "DE",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 25,
+      "slug": "dominga-bistro-iquique",
+      "comercio": "Dominga Bistro Iquique",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Tarapacá"
+      ],
+      "comunas": [
+        "Iquique"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "martes",
+        "jueves"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Tarapacá",
+      "imagen": "/img/comercios/dominga-bistro-iquique.svg",
+      "monograma": "DB",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 81,
+      "slug": "dominga-bistro-pucon",
+      "comercio": "Dominga Bistro Pucón",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Araucanía"
+      ],
+      "comunas": [
+        "Pucón"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Araucanía",
+      "imagen": "/img/comercios/dominga-bistro-pucon.svg",
+      "monograma": "DB",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 87,
+      "slug": "dominga-bistro-valdivia",
+      "comercio": "Dominga Bistro Valdivia",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Los Ríos"
+      ],
+      "comunas": [
+        "Valdivia"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Los Ríos",
+      "imagen": "/img/comercios/dominga-bistro-valdivia.svg",
+      "monograma": "DB",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 83,
+      "slug": "el-cocinero",
+      "comercio": "El Cocinero",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Araucanía"
+      ],
+      "comunas": [
+        "Temuco"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Araucanía",
+      "imagen": "/img/comercios/el-cocinero.svg",
+      "monograma": "EC",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 66,
+      "slug": "gaetano",
+      "comercio": "Gaetano",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Maule"
+      ],
+      "comunas": [
+        "Talca"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "miercoles",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Maule",
+      "imagen": "/img/comercios/gaetano.svg",
+      "monograma": "GA",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 101,
+      "slug": "juan-valdes",
+      "comercio": "Juan Valdés",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Online y presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/juan-valdes.svg",
+      "monograma": "JV",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 58,
+      "slug": "kanpai",
+      "comercio": "Kanpai",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "O'Higgins"
+      ],
+      "comunas": [
+        "Pichilemu"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "O'Higgins",
+      "imagen": "/img/comercios/kanpai.svg",
+      "monograma": "KA",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 7,
+      "slug": "kiara-nikkei",
+      "comercio": "Kiara Nikkei",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 100000,
+      "topeTexto": "$100.000",
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "PREMIUM_ONLY",
+      "premiumOnly": true,
+      "regiones": [
+        "Región Metropolitana"
+      ],
+      "comunas": [
+        "Lo Barnechea"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $100.000 de tope · Presencial · Tarjeta de crédito · Solo tarjetas Premium/Black",
+      "ubicacion": "Región Metropolitana",
+      "imagen": "/img/comercios/kiara-nikkei.svg",
+      "monograma": "KN",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 154,
+      "slug": "kparking-black-signature",
+      "comercio": "Kparking (Black/Signature)",
+      "categoria": "Viajes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 30000,
+      "topeTexto": "$30.000",
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "PREMIUM_ONLY",
+      "premiumOnly": true,
+      "regiones": [
+        "Región Metropolitana"
+      ],
+      "comunas": [
+        "Pudahuel (AMB)"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "miercoles",
+        "sabado"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $30.000 de tope · Presencial · Tarjeta de crédito · Solo tarjetas Premium/Black",
+      "ubicacion": "Región Metropolitana",
+      "imagen": "/img/comercios/kparking-black-signature.svg",
+      "monograma": "KB",
+      "color": "#06B6D4",
+      "colorFin": "#0E7490",
+      "destacado": false
+    },
+    {
+      "id": 63,
+      "slug": "la-hacienda-talca",
+      "comercio": "La Hacienda Talca",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Maule"
+      ],
+      "comunas": [
+        "Talca"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Maule",
+      "imagen": "/img/comercios/la-hacienda-talca.svg",
+      "monograma": "LH",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 55,
+      "slug": "la-mulata",
+      "comercio": "La Mulata",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "PREMIUM_ONLY",
+      "premiumOnly": true,
+      "regiones": [
+        "Tarapacá"
+      ],
+      "comunas": [
+        "Iquique"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "miercoles",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Tarjeta de crédito · Solo tarjetas Premium/Black",
+      "ubicacion": "Tarapacá",
+      "imagen": "/img/comercios/la-mulata.svg",
+      "monograma": "LM",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 113,
+      "slug": "la-polka-pizza",
+      "comercio": "La Polka Pizza",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "lunes",
+        "viernes"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Online y presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/la-polka-pizza.svg",
+      "monograma": "LP",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 12,
+      "slug": "la-vinoteca",
+      "comercio": "La Vinoteca",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "PREMIUM_ONLY",
+      "premiumOnly": true,
+      "regiones": [
+        "Región Metropolitana"
+      ],
+      "comunas": [
+        "Lo Barnechea"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Tarjeta de crédito · Solo tarjetas Premium/Black",
+      "ubicacion": "Región Metropolitana",
+      "imagen": "/img/comercios/la-vinoteca.svg",
+      "monograma": "LV",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 14,
+      "slug": "latin-hotel-marriott",
+      "comercio": "Latin Hotel Marriott",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 100000,
+      "topeTexto": "$100.000",
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "PREMIUM_ONLY",
+      "premiumOnly": true,
+      "regiones": [
+        "Región Metropolitana"
+      ],
+      "comunas": [
+        "Las Condes"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $100.000 de tope · Presencial · Tarjeta de crédito · Solo tarjetas Premium/Black",
+      "ubicacion": "Región Metropolitana",
+      "imagen": "/img/comercios/latin-hotel-marriott.svg",
+      "monograma": "LH",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 85,
+      "slug": "les-tranqueras",
+      "comercio": "Les Tranqueras",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Araucanía"
+      ],
+      "comunas": [
+        "Temuco"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Araucanía",
+      "imagen": "/img/comercios/les-tranqueras.svg",
+      "monograma": "LT",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 122,
+      "slug": "linio",
+      "comercio": "Linio",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 10000,
+      "topeTexto": "$10.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "lunes",
+        "sabado"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "nacional",
+      "descripcion": "Hasta $10.000 de tope · Online · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/linio.svg",
+      "monograma": "LI",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 114,
+      "slug": "mamut",
+      "comercio": "Mamut",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 30000,
+      "topeTexto": "$30.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Hasta $30.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/mamut.svg",
+      "monograma": "MA",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 64,
+      "slug": "marii",
+      "comercio": "Marii",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Maule"
+      ],
+      "comunas": [
+        "Curicó"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Maule",
+      "imagen": "/img/comercios/marii.svg",
+      "monograma": "MA",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 8,
+      "slug": "parigo",
+      "comercio": "Parigó",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 100000,
+      "topeTexto": "$100.000",
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "PREMIUM_ONLY",
+      "premiumOnly": true,
+      "regiones": [
+        "Región Metropolitana"
+      ],
+      "comunas": [
+        "Las Condes"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $100.000 de tope · Presencial · Tarjeta de crédito · Solo tarjetas Premium/Black",
+      "ubicacion": "Región Metropolitana",
+      "imagen": "/img/comercios/parigo.svg",
+      "monograma": "PA",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 29,
+      "slug": "puerto-caliche",
+      "comercio": "Puerto Caliche",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Antofagasta"
+      ],
+      "comunas": [
+        "Antofagasta"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "miercoles",
+        "jueves",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Antofagasta",
+      "imagen": "/img/comercios/puerto-caliche.svg",
+      "monograma": "PC",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 56,
+      "slug": "ristoranti-san-marcos",
+      "comercio": "Ristoranti San Marcos",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "PREMIUM_ONLY",
+      "premiumOnly": true,
+      "regiones": [
+        "Valparaíso"
+      ],
+      "comunas": [
+        "Viña del Mar"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "miercoles",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Tarjeta de crédito · Solo tarjetas Premium/Black",
+      "ubicacion": "Valparaíso",
+      "imagen": "/img/comercios/ristoranti-san-marcos.svg",
+      "monograma": "RS",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 89,
+      "slug": "roquesta",
+      "comercio": "Roquesta",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Los Ríos"
+      ],
+      "comunas": [
+        "Valdivia"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "miercoles",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Los Ríos",
+      "imagen": "/img/comercios/roquesta.svg",
+      "monograma": "RO",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 45,
+      "slug": "sushi-burger-home",
+      "comercio": "Sushi & Burger Home",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Valparaíso"
+      ],
+      "comunas": [
+        "Viña del Mar",
+        "Reñaca"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "jueves",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Valparaíso",
+      "imagen": "/img/comercios/sushi-burger-home.svg",
+      "monograma": "SB",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 47,
+      "slug": "sushi-home-renaca",
+      "comercio": "Sushi Home Reñaca",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Valparaíso"
+      ],
+      "comunas": [
+        "Reñaca"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Valparaíso",
+      "imagen": "/img/comercios/sushi-home-renaca.svg",
+      "monograma": "SH",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 44,
+      "slug": "sushi-rolls",
+      "comercio": "Sushi Rolls",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Valparaíso"
+      ],
+      "comunas": [
+        "Viña del Mar"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "martes",
+        "viernes",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Valparaíso",
+      "imagen": "/img/comercios/sushi-rolls.svg",
+      "monograma": "SR",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 93,
+      "slug": "taurus-steakbar",
+      "comercio": "Taurus Steakbar",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "PREMIUM_ONLY",
+      "premiumOnly": true,
+      "regiones": [
+        "Ñuble"
+      ],
+      "comunas": [
+        "Chillán"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "jueves",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Tarjeta de crédito · Solo tarjetas Premium/Black",
+      "ubicacion": "Ñuble",
+      "imagen": "/img/comercios/taurus-steakbar.svg",
+      "monograma": "TS",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 11,
+      "slug": "the-loft",
+      "comercio": "The Loft",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 100000,
+      "topeTexto": "$100.000",
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "PREMIUM_ONLY",
+      "premiumOnly": true,
+      "regiones": [
+        "Región Metropolitana"
+      ],
+      "comunas": [
+        "Las Condes"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "viernes"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $100.000 de tope · Presencial · Tarjeta de crédito · Solo tarjetas Premium/Black",
+      "ubicacion": "Región Metropolitana",
+      "imagen": "/img/comercios/the-loft.svg",
+      "monograma": "TL",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 70,
+      "slug": "toro-bayo",
+      "comercio": "Toro Bayo",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Maule"
+      ],
+      "comunas": [
+        "Talca"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Maule",
+      "imagen": "/img/comercios/toro-bayo.svg",
+      "monograma": "TB",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 60,
+      "slug": "vako-sushi",
+      "comercio": "Vako Sushi",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "O'Higgins"
+      ],
+      "comunas": [
+        "Santa Cruz"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "sabado"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "O'Higgins",
+      "imagen": "/img/comercios/vako-sushi.svg",
+      "monograma": "VS",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 95,
+      "slug": "varsovienne",
+      "comercio": "Varsovienne",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "miercoles",
+        "viernes"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Hasta $20.000 de tope · Online y presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/varsovienne.svg",
+      "monograma": "VA",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 59,
+      "slug": "vino-bella",
+      "comercio": "Vino Bella",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 40,
+      "valorTexto": "40% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "O'Higgins"
+      ],
+      "comunas": [
+        "Santa Cruz"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "viernes",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "O'Higgins",
+      "imagen": "/img/comercios/vino-bella.svg",
+      "monograma": "VB",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 116,
+      "slug": "andesland",
+      "comercio": "Andesland",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 30,
+      "valorTexto": "30% de descuento",
+      "tope": 30000,
+      "topeTexto": "$30.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "miercoles",
+        "viernes",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Hasta $30.000 de tope · Online y presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/andesland.svg",
+      "monograma": "AN",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 110,
+      "slug": "carnes-premium",
+      "comercio": "Carnes Premium",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 30,
+      "valorTexto": "30% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "martes",
+        "viernes",
+        "sabado"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Online y presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/carnes-premium.svg",
+      "monograma": "CP",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 103,
+      "slug": "chinawok",
+      "comercio": "Chinawok",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 30,
+      "valorTexto": "30% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Online y presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/chinawok.svg",
+      "monograma": "CH",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 117,
+      "slug": "coca-cola",
+      "comercio": "Coca-Cola",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 30,
+      "valorTexto": "30% de descuento",
+      "tope": 30000,
+      "topeTexto": "$30.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "sabado"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "nacional",
+      "descripcion": "Hasta $30.000 de tope · Online · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/coca-cola.svg",
+      "monograma": "CC",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 125,
+      "slug": "figueras",
+      "comercio": "Figueras",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 30,
+      "valorTexto": "30% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "lunes",
+        "sabado"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Online y presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/figueras.svg",
+      "monograma": "FI",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 104,
+      "slug": "giant-dafiti",
+      "comercio": "Giant Dafiti",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 30,
+      "valorTexto": "30% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "lunes",
+        "martes",
+        "viernes"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "nacional",
+      "descripcion": "Online · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/giant-dafiti.svg",
+      "monograma": "GD",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 149,
+      "slug": "jetsmart-credito",
+      "comercio": "JetSMART Crédito",
+      "categoria": "Viajes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 30,
+      "valorTexto": "30% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "lunes",
+        "miercoles"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "nacional",
+      "descripcion": "Online · Tarjeta de crédito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/jetsmart-credito.svg",
+      "monograma": "JC",
+      "color": "#06B6D4",
+      "colorFin": "#0E7490",
+      "destacado": false
+    },
+    {
+      "id": 150,
+      "slug": "jetsmart-santiago-miercoles",
+      "comercio": "JetSMART Santiago Miércoles",
+      "categoria": "Viajes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 30,
+      "valorTexto": "30% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Región Metropolitana"
+      ],
+      "comunas": [
+        "Santiago"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "jueves",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "regional",
+      "descripcion": "Online · Tarjeta de crédito",
+      "ubicacion": "Región Metropolitana",
+      "imagen": "/img/comercios/jetsmart-santiago-miercoles.svg",
+      "monograma": "JS",
+      "color": "#06B6D4",
+      "colorFin": "#0E7490",
+      "destacado": false
+    },
+    {
+      "id": 94,
+      "slug": "kfc",
+      "comercio": "KFC",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 30,
+      "valorTexto": "30% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "domingo"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Online y presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/kfc.svg",
+      "monograma": "KF",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 141,
+      "slug": "mall-sport",
+      "comercio": "Mall Sport",
+      "categoria": "Panoramas",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 30,
+      "valorTexto": "30% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Región Metropolitana"
+      ],
+      "comunas": [
+        "Las Condes"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "sabado"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Presencial · Crédito o débito",
+      "ubicacion": "Región Metropolitana",
+      "imagen": "/img/comercios/mall-sport.svg",
+      "monograma": "MS",
+      "color": "#A855F7",
+      "colorFin": "#6D28D9",
+      "destacado": false
+    },
+    {
+      "id": 102,
+      "slug": "manduca",
+      "comercio": "Manduca",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 30,
+      "valorTexto": "30% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Online y presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/manduca.svg",
+      "monograma": "MA",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 98,
+      "slug": "paula-barnechea",
+      "comercio": "Paula Barnechea",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 30,
+      "valorTexto": "30% de descuento",
+      "tope": 30000,
+      "topeTexto": "$30.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Hasta $30.000 de tope · Online y presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/paula-barnechea.svg",
+      "monograma": "PB",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 120,
+      "slug": "pedidosya-market-2",
+      "comercio": "PedidosYa Market",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 30,
+      "valorTexto": "30% de descuento",
+      "tope": 8000,
+      "topeTexto": "$8.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "APP_PROPIA"
+      ],
+      "canalLabel": "App Bci",
+      "dias": [
+        "martes",
+        "viernes"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "nacional",
+      "descripcion": "Hasta $8.000 de tope · App Bci · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/pedidosya-market-2.svg",
+      "monograma": "PM",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 107,
+      "slug": "planes",
+      "comercio": "Planes",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 30,
+      "valorTexto": "30% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "jueves"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Online y presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/planes.svg",
+      "monograma": "PL",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 105,
+      "slug": "scalpers",
+      "comercio": "Scalpers",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 30,
+      "valorTexto": "30% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "martes"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Online y presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/scalpers.svg",
+      "monograma": "SC",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 145,
+      "slug": "teatro-municipal-de-las-condes",
+      "comercio": "Teatro Municipal de Las Condes",
+      "categoria": "Panoramas",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 30,
+      "valorTexto": "30% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Región Metropolitana"
+      ],
+      "comunas": [
+        "Las Condes"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "martes",
+        "jueves",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Online y presencial · Tarjeta de crédito",
+      "ubicacion": "Región Metropolitana",
+      "imagen": "/img/comercios/teatro-municipal-de-las-condes.svg",
+      "monograma": "TM",
+      "color": "#A855F7",
+      "colorFin": "#6D28D9",
+      "destacado": false
+    },
+    {
+      "id": 144,
+      "slug": "teatro-san-gines",
+      "comercio": "Teatro San Ginés",
+      "categoria": "Panoramas",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 30,
+      "valorTexto": "30% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Región Metropolitana"
+      ],
+      "comunas": [
+        "Providencia"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "martes",
+        "jueves",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Online y presencial · Crédito o débito",
+      "ubicacion": "Región Metropolitana",
+      "imagen": "/img/comercios/teatro-san-gines.svg",
+      "monograma": "TS",
+      "color": "#A855F7",
+      "colorFin": "#6D28D9",
+      "destacado": false
+    },
+    {
+      "id": 142,
+      "slug": "teatro-zoco-entradas",
+      "comercio": "Teatro Zoco Entradas",
+      "categoria": "Panoramas",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 30,
+      "valorTexto": "30% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Región Metropolitana"
+      ],
+      "comunas": [
+        "Lo Barnechea"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "miercoles",
+        "sabado",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "regional",
+      "descripcion": "Online · Tarjeta de crédito",
+      "ubicacion": "Región Metropolitana",
+      "imagen": "/img/comercios/teatro-zoco-entradas.svg",
+      "monograma": "TZ",
+      "color": "#A855F7",
+      "colorFin": "#6D28D9",
+      "destacado": false
+    },
+    {
+      "id": 146,
+      "slug": "vina-encierra",
+      "comercio": "Viña Encierra",
+      "categoria": "Panoramas",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 30,
+      "valorTexto": "30% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "O'Higgins"
+      ],
+      "comunas": [
+        "Peralillo"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "martes",
+        "viernes",
+        "sabado"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Online y presencial · Crédito o débito",
+      "ubicacion": "O'Higgins",
+      "imagen": "/img/comercios/vina-encierra.svg",
+      "monograma": "VE",
+      "color": "#A855F7",
+      "colorFin": "#6D28D9",
+      "destacado": false
+    },
+    {
+      "id": 112,
+      "slug": "vitamin-shoppe",
+      "comercio": "Vitamin Shoppe",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 30,
+      "valorTexto": "30% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "miercoles",
+        "sabado",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Online y presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/vitamin-shoppe.svg",
+      "monograma": "VS",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 82,
+      "slug": "dc-araucania",
+      "comercio": "DC Araucanía",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 25,
+      "valorTexto": "25% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Araucanía"
+      ],
+      "comunas": [
+        "Temuco"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "miercoles",
+        "viernes"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Presencial · Crédito o débito",
+      "ubicacion": "Araucanía",
+      "imagen": "/img/comercios/dc-araucania.svg",
+      "monograma": "DA",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 126,
+      "slug": "mezs",
+      "comercio": "MEZS",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 25,
+      "valorTexto": "25% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "martes"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "nacional",
+      "descripcion": "Online · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/mezs.svg",
+      "monograma": "ME",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 156,
+      "slug": "tur-com",
+      "comercio": "Tur.com",
+      "categoria": "Viajes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 25,
+      "valorTexto": "25% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "jueves"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "nacional",
+      "descripcion": "Hasta $40.000 de tope · Online · Tarjeta de crédito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/tur-com.svg",
+      "monograma": "TC",
+      "color": "#06B6D4",
+      "colorFin": "#0E7490",
+      "destacado": false
+    },
+    {
+      "id": 86,
+      "slug": "allegro-cafe-gelato",
+      "comercio": "Allegro Café & Gelato",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Araucanía"
+      ],
+      "comunas": [
+        "Temuco"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Araucanía",
+      "imagen": "/img/comercios/allegro-cafe-gelato.svg",
+      "monograma": "AC",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 84,
+      "slug": "andre-regie-cafe-bar",
+      "comercio": "Andre Regie Café Bar",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Araucanía"
+      ],
+      "comunas": [
+        "Temuco"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "jueves",
+        "sabado"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Araucanía",
+      "imagen": "/img/comercios/andre-regie-cafe-bar.svg",
+      "monograma": "AR",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 48,
+      "slug": "angelino",
+      "comercio": "Angelino",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Valparaíso"
+      ],
+      "comunas": [
+        "Viña del Mar"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "miercoles",
+        "jueves",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Valparaíso",
+      "imagen": "/img/comercios/angelino.svg",
+      "monograma": "AN",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 28,
+      "slug": "bajo-timana",
+      "comercio": "Bajo Timana",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Antofagasta"
+      ],
+      "comunas": [
+        "Antofagasta"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "sabado"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Antofagasta",
+      "imagen": "/img/comercios/bajo-timana.svg",
+      "monograma": "BT",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 78,
+      "slug": "bandurria-restobar",
+      "comercio": "Bandurria Restobar",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 30000,
+      "topeTexto": "$30.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Biobío"
+      ],
+      "comunas": [
+        "Concepción"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "jueves"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $30.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Biobío",
+      "imagen": "/img/comercios/bandurria-restobar.svg",
+      "monograma": "BR",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 73,
+      "slug": "baquedano-las-trancas",
+      "comercio": "Baquedano Las Trancas",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Ñuble"
+      ],
+      "comunas": [
+        "Chillán"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Ñuble",
+      "imagen": "/img/comercios/baquedano-las-trancas.svg",
+      "monograma": "BL",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 118,
+      "slug": "blackdrop-coffee",
+      "comercio": "Blackdrop Coffee",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "viernes",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Online y presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/blackdrop-coffee.svg",
+      "monograma": "BC",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 26,
+      "slug": "blind-bar",
+      "comercio": "Blind Bar",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Antofagasta"
+      ],
+      "comunas": [
+        "Calama"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "miercoles",
+        "sabado"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Antofagasta",
+      "imagen": "/img/comercios/blind-bar.svg",
+      "monograma": "BB",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 49,
+      "slug": "burgery",
+      "comercio": "Burgery",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Valparaíso"
+      ],
+      "comunas": [
+        "Viña del Mar"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "jueves"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Valparaíso",
+      "imagen": "/img/comercios/burgery.svg",
+      "monograma": "BU",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 51,
+      "slug": "cafe-rose",
+      "comercio": "Café Rose",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Valparaíso",
+        "Antofagasta"
+      ],
+      "comunas": [
+        "Concón",
+        "Viña del Mar",
+        "Villa Alemana",
+        "Curauma",
+        "Los Andes",
+        "La Calera",
+        "Quillota",
+        "San Felipe",
+        "Antofagasta"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "martes",
+        "jueves"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "2 regiones",
+      "imagen": "/img/comercios/cafe-rose.svg",
+      "monograma": "CR",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 106,
+      "slug": "canadienne",
+      "comercio": "Canadienne",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "viernes"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Online y presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/canadienne.svg",
+      "monograma": "CA",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 50,
+      "slug": "central55",
+      "comercio": "Central55",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Valparaíso"
+      ],
+      "comunas": [
+        "Viña del Mar",
+        "Reñaca"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "sabado"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Valparaíso",
+      "imagen": "/img/comercios/central55.svg",
+      "monograma": "CE",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 140,
+      "slug": "cinepolis-combo-bci",
+      "comercio": "Cinépolis Combo Bci",
+      "categoria": "Panoramas",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "sabado"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Presencial · Tarjeta de crédito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/cinepolis-combo-bci.svg",
+      "monograma": "CC",
+      "color": "#A855F7",
+      "colorFin": "#6D28D9",
+      "destacado": false
+    },
+    {
+      "id": 37,
+      "slug": "club-gordos",
+      "comercio": "Club Gordos",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Valparaíso"
+      ],
+      "comunas": [
+        "Viña del Mar"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Presencial · Crédito o débito",
+      "ubicacion": "Valparaíso",
+      "imagen": "/img/comercios/club-gordos.svg",
+      "monograma": "CG",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 74,
+      "slug": "club-gordos-concepcion",
+      "comercio": "Club Gordos Concepción",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Biobío"
+      ],
+      "comunas": [
+        "Concepción"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "martes"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Presencial · Crédito o débito",
+      "ubicacion": "Biobío",
+      "imagen": "/img/comercios/club-gordos-concepcion.svg",
+      "monograma": "CG",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 21,
+      "slug": "coya",
+      "comercio": "Coya",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Arica y Parinacota"
+      ],
+      "comunas": [
+        "Arica"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "sabado"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Arica y Parinacota",
+      "imagen": "/img/comercios/coya.svg",
+      "monograma": "CO",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 71,
+      "slug": "el-calafate",
+      "comercio": "El Calafate",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Los Lagos",
+        "Biobío"
+      ],
+      "comunas": [
+        "Puerto Montt",
+        "San Pedro de la Paz"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "2 regiones",
+      "imagen": "/img/comercios/el-calafate.svg",
+      "monograma": "EC",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 72,
+      "slug": "emporio-5020",
+      "comercio": "Emporio 5020",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Ñuble"
+      ],
+      "comunas": [
+        "Chillán"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Ñuble",
+      "imagen": "/img/comercios/emporio-5020.svg",
+      "monograma": "E5",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 115,
+      "slug": "encanta",
+      "comercio": "Encanta",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "lunes",
+        "jueves",
+        "viernes"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Online y presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/encanta.svg",
+      "monograma": "EN",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 30,
+      "slug": "enkai-asian-food",
+      "comercio": "Enkai Asian Food",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Antofagasta"
+      ],
+      "comunas": [
+        "Antofagasta"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "jueves",
+        "viernes"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Antofagasta",
+      "imagen": "/img/comercios/enkai-asian-food.svg",
+      "monograma": "EA",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 127,
+      "slug": "extra-life",
+      "comercio": "Extra Life",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "sabado"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "nacional",
+      "descripcion": "Online · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/extra-life.svg",
+      "monograma": "EL",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 38,
+      "slug": "fast-nut-junk",
+      "comercio": "Fast Nut Junk",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Valparaíso"
+      ],
+      "comunas": [
+        "Viña del Mar"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "martes",
+        "jueves"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Presencial · Crédito o débito",
+      "ubicacion": "Valparaíso",
+      "imagen": "/img/comercios/fast-nut-junk.svg",
+      "monograma": "FN",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 65,
+      "slug": "fuegos-de-raidho",
+      "comercio": "Fuegos de Raidho",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Maule"
+      ],
+      "comunas": [
+        "Talca"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Maule",
+      "imagen": "/img/comercios/fuegos-de-raidho.svg",
+      "monograma": "FD",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 57,
+      "slug": "grds-gros-sur",
+      "comercio": "GRDS GROS (Sur)",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "O'Higgins"
+      ],
+      "comunas": [
+        "Rancagua"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "miercoles",
+        "viernes",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Presencial · Crédito o débito",
+      "ubicacion": "O'Higgins",
+      "imagen": "/img/comercios/grds-gros-sur.svg",
+      "monograma": "GG",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 67,
+      "slug": "hettia",
+      "comercio": "Hettia",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Maule"
+      ],
+      "comunas": [
+        "Talca"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Maule",
+      "imagen": "/img/comercios/hettia.svg",
+      "monograma": "HE",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 20,
+      "slug": "hey-latte",
+      "comercio": "Hey Latte",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Arica y Parinacota"
+      ],
+      "comunas": [
+        "Arica"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Arica y Parinacota",
+      "imagen": "/img/comercios/hey-latte.svg",
+      "monograma": "HL",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 32,
+      "slug": "hikari-sushi",
+      "comercio": "Hikari Sushi",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Antofagasta"
+      ],
+      "comunas": [
+        "Calama"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Antofagasta",
+      "imagen": "/img/comercios/hikari-sushi.svg",
+      "monograma": "HS",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 52,
+      "slug": "idilico",
+      "comercio": "Idílico",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Valparaíso"
+      ],
+      "comunas": [
+        "Viña del Mar"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "martes",
+        "jueves",
+        "sabado"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Valparaíso",
+      "imagen": "/img/comercios/idilico.svg",
+      "monograma": "ID",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 134,
+      "slug": "intimissimi-home",
+      "comercio": "Intimissimi Home",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "jueves",
+        "sabado"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Online y presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/intimissimi-home.svg",
+      "monograma": "IH",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 23,
+      "slug": "isla-restobar",
+      "comercio": "Isla Restobar",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Arica y Parinacota"
+      ],
+      "comunas": [
+        "Arica"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Arica y Parinacota",
+      "imagen": "/img/comercios/isla-restobar.svg",
+      "monograma": "IR",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 151,
+      "slug": "jetsmart-debito",
+      "comercio": "JetSMART Débito",
+      "categoria": "Viajes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "DEBITO",
+      "medioPagoLabel": "Tarjeta de débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "viernes"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "nacional",
+      "descripcion": "Online · Tarjeta de débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/jetsmart-debito.svg",
+      "monograma": "JD",
+      "color": "#06B6D4",
+      "colorFin": "#0E7490",
+      "destacado": false
+    },
+    {
+      "id": 152,
+      "slug": "jetsmart-santiago-debito",
+      "comercio": "JetSMART Santiago Débito",
+      "categoria": "Viajes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "DEBITO",
+      "medioPagoLabel": "Tarjeta de débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Región Metropolitana"
+      ],
+      "comunas": [
+        "Santiago"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "martes",
+        "miercoles",
+        "sabado"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "regional",
+      "descripcion": "Online · Tarjeta de débito",
+      "ubicacion": "Región Metropolitana",
+      "imagen": "/img/comercios/jetsmart-santiago-debito.svg",
+      "monograma": "JS",
+      "color": "#06B6D4",
+      "colorFin": "#0E7490",
+      "destacado": false
+    },
+    {
+      "id": 132,
+      "slug": "karun",
+      "comercio": "Karün",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "miercoles"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Online y presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/karun.svg",
+      "monograma": "KA",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 36,
+      "slug": "kosla-sushi",
+      "comercio": "Kosla Sushi",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Valparaíso"
+      ],
+      "comunas": [
+        "Valparaíso",
+        "Viña del Mar"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Valparaíso",
+      "imagen": "/img/comercios/kosla-sushi.svg",
+      "monograma": "KS",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 155,
+      "slug": "kparking-otras",
+      "comercio": "Kparking (Otras)",
+      "categoria": "Viajes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 30000,
+      "topeTexto": "$30.000",
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Región Metropolitana"
+      ],
+      "comunas": [
+        "Pudahuel (AMB)"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $30.000 de tope · Presencial · Tarjeta de crédito",
+      "ubicacion": "Región Metropolitana",
+      "imagen": "/img/comercios/kparking-otras.svg",
+      "monograma": "KO",
+      "color": "#06B6D4",
+      "colorFin": "#0E7490",
+      "destacado": false
+    },
+    {
+      "id": 68,
+      "slug": "la-fabrica",
+      "comercio": "La Fábrica",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Maule"
+      ],
+      "comunas": [
+        "Talca"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "martes",
+        "viernes"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Presencial · Crédito o débito",
+      "ubicacion": "Maule",
+      "imagen": "/img/comercios/la-fabrica.svg",
+      "monograma": "LF",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 24,
+      "slug": "la-fuente-peruana",
+      "comercio": "La Fuente Peruana",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Tarapacá"
+      ],
+      "comunas": [
+        "Iquique"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "viernes",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Presencial · Crédito o débito",
+      "ubicacion": "Tarapacá",
+      "imagen": "/img/comercios/la-fuente-peruana.svg",
+      "monograma": "LF",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 109,
+      "slug": "la-papelaria",
+      "comercio": "La Papelaria",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "viernes",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Online y presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/la-papelaria.svg",
+      "monograma": "LP",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 62,
+      "slug": "la-redonda-pizzeria",
+      "comercio": "La Redonda Pizzería",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Maule"
+      ],
+      "comunas": [
+        "Talca"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "sabado"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Maule",
+      "imagen": "/img/comercios/la-redonda-pizzeria.svg",
+      "monograma": "LR",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 53,
+      "slug": "la-schoperia-4-1-2",
+      "comercio": "La Schopería 4 1/2",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Valparaíso"
+      ],
+      "comunas": [
+        "Viña del Mar"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "jueves",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Valparaíso",
+      "imagen": "/img/comercios/la-schoperia-4-1-2.svg",
+      "monograma": "LS",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 79,
+      "slug": "lebo",
+      "comercio": "Lebo",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Biobío"
+      ],
+      "comunas": [
+        "Concepción"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "sabado"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Biobío",
+      "imagen": "/img/comercios/lebo.svg",
+      "monograma": "LE",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 33,
+      "slug": "los-hornitos-del-molle",
+      "comercio": "Los Hornitos del Molle",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Coquimbo"
+      ],
+      "comunas": [
+        "El Molle"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Presencial · Crédito o débito",
+      "ubicacion": "Coquimbo",
+      "imagen": "/img/comercios/los-hornitos-del-molle.svg",
+      "monograma": "LH",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 40,
+      "slug": "maria-clarita",
+      "comercio": "Maria Clarita",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Valparaíso"
+      ],
+      "comunas": [
+        "Viña del Mar"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Presencial · Crédito o débito",
+      "ubicacion": "Valparaíso",
+      "imagen": "/img/comercios/maria-clarita.svg",
+      "monograma": "MC",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 96,
+      "slug": "marks-company",
+      "comercio": "Marks & Company",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "jueves"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Online y presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/marks-company.svg",
+      "monograma": "MC",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 39,
+      "slug": "mrkt-fast-market",
+      "comercio": "Mrkt Fast Market",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Valparaíso"
+      ],
+      "comunas": [
+        "Viña del Mar"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Presencial · Crédito o débito",
+      "ubicacion": "Valparaíso",
+      "imagen": "/img/comercios/mrkt-fast-market.svg",
+      "monograma": "MF",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 123,
+      "slug": "natura",
+      "comercio": "Natura",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "nacional",
+      "descripcion": "Online · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/natura.svg",
+      "monograma": "NA",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 77,
+      "slug": "onto",
+      "comercio": "Onto",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Biobío"
+      ],
+      "comunas": [
+        "Concepción"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Biobío",
+      "imagen": "/img/comercios/onto.svg",
+      "monograma": "ON",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 99,
+      "slug": "paws-ritta",
+      "comercio": "Paws & Ritta",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "domingo"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Online y presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/paws-ritta.svg",
+      "monograma": "PR",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 42,
+      "slug": "portofino",
+      "comercio": "Portofino",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Valparaíso"
+      ],
+      "comunas": [
+        "Valparaíso"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "sabado"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Valparaíso",
+      "imagen": "/img/comercios/portofino.svg",
+      "monograma": "PO",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 76,
+      "slug": "puente-del-inca",
+      "comercio": "Puente del Inca",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Biobío"
+      ],
+      "comunas": [
+        "Los Ángeles"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "martes"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Biobío",
+      "imagen": "/img/comercios/puente-del-inca.svg",
+      "monograma": "PD",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 69,
+      "slug": "raidho",
+      "comercio": "Raidho",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Maule"
+      ],
+      "comunas": [
+        "Talca"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "miercoles",
+        "viernes"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Maule",
+      "imagen": "/img/comercios/raidho.svg",
+      "monograma": "RA",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 18,
+      "slug": "republica-de-arica",
+      "comercio": "República de Arica",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Arica y Parinacota"
+      ],
+      "comunas": [
+        "Arica"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "martes",
+        "viernes",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Arica y Parinacota",
+      "imagen": "/img/comercios/republica-de-arica.svg",
+      "monograma": "RD",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 92,
+      "slug": "restaurant-bahia-mansa",
+      "comercio": "Restaurant Bahía Mansa",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 40000,
+      "topeTexto": "$40.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Magallanes"
+      ],
+      "comunas": [
+        "Puerto Natales"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "miercoles",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $40.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Magallanes",
+      "imagen": "/img/comercios/restaurant-bahia-mansa.svg",
+      "monograma": "RB",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 43,
+      "slug": "restaurant-travesia",
+      "comercio": "Restaurant Travesía",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Valparaíso"
+      ],
+      "comunas": [
+        "Viña del Mar"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Presencial · Crédito o débito",
+      "ubicacion": "Valparaíso",
+      "imagen": "/img/comercios/restaurant-travesia.svg",
+      "monograma": "RT",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 90,
+      "slug": "restaurante-mirador-del-lago",
+      "comercio": "Restaurante Mirador del Lago",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Los Lagos"
+      ],
+      "comunas": [
+        "Puerto Varas"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Presencial · Crédito o débito",
+      "ubicacion": "Los Lagos",
+      "imagen": "/img/comercios/restaurante-mirador-del-lago.svg",
+      "monograma": "RM",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 54,
+      "slug": "root-burger-norte",
+      "comercio": "Root Burger (Norte)",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Valparaíso",
+        "Antofagasta",
+        "Atacama"
+      ],
+      "comunas": [
+        "Viña del Mar",
+        "Reñaca",
+        "Concón",
+        "Los Andes",
+        "Valparaíso",
+        "Quillota",
+        "La Calera",
+        "Antofagasta",
+        "Copiapó"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "jueves",
+        "viernes"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "3 regiones",
+      "imagen": "/img/comercios/root-burger-norte.svg",
+      "monograma": "RB",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 91,
+      "slug": "root-burger-sur",
+      "comercio": "Root Burger (Sur)",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Los Lagos",
+        "Biobío",
+        "Los Ríos"
+      ],
+      "comunas": [
+        "Puerto Montt",
+        "San Pedro de la Paz",
+        "Valdivia"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "miercoles",
+        "sabado"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "3 regiones",
+      "imagen": "/img/comercios/root-burger-sur.svg",
+      "monograma": "RB",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 35,
+      "slug": "sangucheria-gorilas",
+      "comercio": "Sanguchería Gorilas",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 30000,
+      "topeTexto": "$30.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Valparaíso"
+      ],
+      "comunas": [
+        "Curauma",
+        "Viña del Mar",
+        "Quilpué",
+        "Concón",
+        "Quillota"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "jueves"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $30.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Valparaíso",
+      "imagen": "/img/comercios/sangucheria-gorilas.svg",
+      "monograma": "SG",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 133,
+      "slug": "smpit",
+      "comercio": "Smpit",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "viernes",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "nacional",
+      "descripcion": "Online · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/smpit.svg",
+      "monograma": "SM",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 27,
+      "slug": "sublimeat",
+      "comercio": "Sublimeat",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Antofagasta"
+      ],
+      "comunas": [
+        "Calama"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Antofagasta",
+      "imagen": "/img/comercios/sublimeat.svg",
+      "monograma": "SU",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 143,
+      "slug": "teatro-zoco-cafe-bar",
+      "comercio": "Teatro Zoco Café Bar",
+      "categoria": "Panoramas",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Región Metropolitana"
+      ],
+      "comunas": [
+        "Lo Barnechea"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "martes",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Presencial · Crédito o débito",
+      "ubicacion": "Región Metropolitana",
+      "imagen": "/img/comercios/teatro-zoco-cafe-bar.svg",
+      "monograma": "TZ",
+      "color": "#A855F7",
+      "colorFin": "#6D28D9",
+      "destacado": false
+    },
+    {
+      "id": 22,
+      "slug": "tenedor-libre-las-ramas",
+      "comercio": "Tenedor Libre Las Ramas",
+      "categoria": "Restaurantes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": 20000,
+      "topeTexto": "$20.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "Arica y Parinacota"
+      ],
+      "comunas": [
+        "Arica"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "lunes",
+        "jueves"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "regional",
+      "descripcion": "Hasta $20.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Arica y Parinacota",
+      "imagen": "/img/comercios/tenedor-libre-las-ramas.svg",
+      "monograma": "TL",
+      "color": "#F97316",
+      "colorFin": "#B91C1C",
+      "destacado": false
+    },
+    {
+      "id": 135,
+      "slug": "tres",
+      "comercio": "Tres",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "viernes"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Online y presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/tres.svg",
+      "monograma": "TR",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 130,
+      "slug": "turita",
+      "comercio": "Turita",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "lunes",
+        "jueves",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "nacional",
+      "descripcion": "Online · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/turita.svg",
+      "monograma": "TU",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 111,
+      "slug": "winkler-nutrition",
+      "comercio": "Winkler Nutrition",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "lunes",
+        "viernes"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "nacional",
+      "descripcion": "Online · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/winkler-nutrition.svg",
+      "monograma": "WN",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 136,
+      "slug": "zac",
+      "comercio": "Zac",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 20,
+      "valorTexto": "20% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL",
+        "ONLINE"
+      ],
+      "canalLabel": "Online y presencial",
+      "dias": [
+        "martes",
+        "viernes",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Online y presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/zac.svg",
+      "monograma": "ZA",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 128,
+      "slug": "auraindustria",
+      "comercio": "Auraindustria",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 15,
+      "valorTexto": "15% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "miercoles",
+        "jueves",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "nacional",
+      "descripcion": "Online · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/auraindustria.svg",
+      "monograma": "AU",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 124,
+      "slug": "koti-body",
+      "comercio": "Koti Body",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 15,
+      "valorTexto": "15% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "miercoles",
+        "viernes",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "nacional",
+      "descripcion": "Online · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/koti-body.svg",
+      "monograma": "KB",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 108,
+      "slug": "tessa",
+      "comercio": "TESSA",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 15,
+      "valorTexto": "15% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "nacional",
+      "descripcion": "Online · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/tessa.svg",
+      "monograma": "TE",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 153,
+      "slug": "all-accor",
+      "comercio": "ALL Accor",
+      "categoria": "Viajes",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 10,
+      "valorTexto": "10% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "INTERNACIONAL"
+      ],
+      "comunas": [
+        "Sudamérica",
+        "México",
+        "Brasil"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "lunes",
+        "martes",
+        "miercoles",
+        "jueves",
+        "viernes",
+        "sabado",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "internacional",
+      "descripcion": "Online · Tarjeta de crédito",
+      "ubicacion": "Internacional",
+      "imagen": "/img/comercios/all-accor.svg",
+      "monograma": "AA",
+      "color": "#06B6D4",
+      "colorFin": "#0E7490",
+      "destacado": false
+    },
+    {
+      "id": 129,
+      "slug": "bebeut",
+      "comercio": "Bebeut",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 10,
+      "valorTexto": "10% de descuento",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "jueves",
+        "domingo"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "nacional",
+      "descripcion": "Online · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/bebeut.svg",
+      "monograma": "BE",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 119,
+      "slug": "larrainvial",
+      "comercio": "LarrainVial",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "PORCENTAJE",
+      "valor": 10,
+      "valorTexto": "10% de descuento",
+      "tope": 5000,
+      "topeTexto": "$5.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "martes"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "nacional",
+      "descripcion": "Hasta $5.000 de tope · Online · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/larrainvial.svg",
+      "monograma": "LA",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 137,
+      "slug": "implante-dental-unitario",
+      "comercio": "Implante Dental Unitario",
+      "categoria": "Comercios",
+      "tipo": "Descuento",
+      "moneda": "CLP",
+      "valor": 100000,
+      "valorTexto": "$100.000 de descuento",
+      "tope": 100000,
+      "topeTexto": "$100.000",
+      "mediosPago": "AMBOS",
+      "medioPagoLabel": "Crédito o débito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "TODAS_LAS_REGIONES"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "PRESENCIAL"
+      ],
+      "canalLabel": "Presencial",
+      "dias": [
+        "martes",
+        "jueves",
+        "domingo"
+      ],
+      "online": false,
+      "presencial": true,
+      "alcance": "nacional",
+      "descripcion": "Hasta $100.000 de tope · Presencial · Crédito o débito",
+      "ubicacion": "Todo Chile",
+      "imagen": "/img/comercios/implante-dental-unitario.svg",
+      "monograma": "ID",
+      "color": "#0EA5E9",
+      "colorFin": "#1D4ED8",
+      "destacado": false
+    },
+    {
+      "id": 147,
+      "slug": "viajes-bci-programa",
+      "comercio": "Viajes Bci Programa",
+      "categoria": "Viajes",
+      "tipo": "Cashback",
+      "moneda": "MULTIPLICADOR",
+      "valor": 3,
+      "valorTexto": "3x en acumulación",
+      "tope": null,
+      "topeTexto": null,
+      "mediosPago": "CREDITO",
+      "medioPagoLabel": "Tarjeta de crédito",
+      "segmento": "TODAS",
+      "premiumOnly": false,
+      "regiones": [
+        "INTERNACIONAL"
+      ],
+      "comunas": [
+        "Varias Comunas"
+      ],
+      "canales": [
+        "ONLINE"
+      ],
+      "canalLabel": "Online",
+      "dias": [
+        "lunes",
+        "viernes"
+      ],
+      "online": true,
+      "presencial": false,
+      "alcance": "internacional",
+      "descripcion": "Online · Tarjeta de crédito",
+      "ubicacion": "Internacional",
+      "imagen": "/img/comercios/viajes-bci-programa.svg",
+      "monograma": "VB",
+      "color": "#06B6D4",
+      "colorFin": "#0E7490",
+      "destacado": false
+    }
+  ]
+}

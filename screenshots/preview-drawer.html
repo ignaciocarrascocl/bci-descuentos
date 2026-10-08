@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="es-CL">
+  <head>
+    <meta charset="utf-8" />
+    <title>Preview drawer móvil</title>
+    <style>
+      body {
+        margin: 0;
+        font: 13px/1.4 system-ui, sans-serif;
+        background: #eef1f6;
+        padding: 16px;
+        display: flex;
+        gap: 16px;
+        align-items: flex-start;
+      }
+      figure {
+        margin: 0;
+      }
+      figcaption {
+        font-weight: 700;
+        margin-bottom: 6px;
+        color: #334155;
+      }
+      iframe {
+        border: 1px solid #cbd5e1;
+        border-radius: 10px;
+        background: #fff;
+        display: block;
+        box-shadow: 0 8px 24px rgba(15, 23, 42, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <figure>
+      <figcaption>Móvil 390px — panel de filtros abierto</figcaption>
+      <iframe id="m" src="/?dias=jueves" width="390" height="1600"></iframe>
+    </figure>
+    <figure>
+      <figcaption>Móvil 390px — estado inicial</figcaption>
+      <iframe src="/?dias=jueves" width="390" height="1600"></iframe>
+    </figure>
+    <script>
+      const marco = document.getElementById('m');
+      function abrirDrawer() {
+        const doc = marco.contentDocument;
+        const app = doc && doc.querySelector('.bx-app');
+        const panel = doc && doc.querySelector('.bx-filters');
+        if (!app || !panel) {
+          setTimeout(abrirDrawer, 120);
+          return;
+        }
+        app.dataset.drawerOpen = 'true';
+        panel.style.transform = 'none';
+        doc.body.style.overflow = 'hidden';
+      }
+      marco.addEventListener('load', () => setTimeout(abrirDrawer, 60));
+    </script>
+  </body>
+</html>

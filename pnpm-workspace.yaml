@@ -1,0 +1,9 @@
+# Ajustes de pnpm (v11 lee la configuración desde aquí, no desde package.json).
+allowBuilds:
+  esbuild: true
+
+# 'hoisted' evita las junctions de Windows, que Node no resuelve en este entorno.
+nodeLinker: hoisted
+
+packages:
+  - '.'

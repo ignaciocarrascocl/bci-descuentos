@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es-CL">
+  <head>
+    <meta charset="utf-8" />
+    <title>Preview responsive</title>
+    <style>
+      body {
+        margin: 0;
+        font: 13px/1.4 system-ui, sans-serif;
+        background: #eef1f6;
+        padding: 16px;
+        display: flex;
+        gap: 16px;
+        align-items: flex-start;
+      }
+      figure {
+        margin: 0;
+      }
+      figcaption {
+        font-weight: 700;
+        margin-bottom: 6px;
+        color: #334155;
+      }
+      iframe {
+        border: 1px solid #cbd5e1;
+        border-radius: 10px;
+        background: #fff;
+        display: block;
+        box-shadow: 0 8px 24px rgba(15, 23, 42, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <figure>
+      <figcaption>Móvil 390px — resultados</figcaption>
+      <iframe id="m1" src="/?dias=jueves" width="390" height="1500"></iframe>
+    </figure>
+    <figure>
+      <figcaption>Móvil 390px — panel de filtros abierto</figcaption>
+      <iframe id="m2" src="/" width="390" height="1500"></iframe>
+    </figure>
+    <figure>
+      <figcaption>Tablet 768px</figcaption>
+      <iframe id="t1" src="/?categorias=Viajes" width="768" height="1500"></iframe>
+    </figure>
+    <script>
+      document.getElementById('m2').addEventListener('load', (e) => {
+        const doc = e.target.contentDocument;
+        if (!doc) return;
+        doc.querySelector('.bx-app').dataset.drawerOpen = 'true';
+        doc.querySelector('.bx-filters').style.transform = 'none';
+        doc.body.style.overflow = 'hidden';
+      });
+    </script>
+  </body>
+</html>

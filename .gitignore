@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.pnpm-store/
+.tmp-chrome*/
+screenshots/*.err
+npm-debug.log*
+.DS_Store

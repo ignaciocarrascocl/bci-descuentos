@@ -1,0 +1,18 @@
+{
+  "name": "bci-descuentos-finder",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Buscador y filtrado de beneficios/descuentos Bci (solo el bloque de filtros + resultados).",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "node scripts/serve.mjs",
+    "prepare-data": "node scripts/prepare-data.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "devDependencies": {
+    "vite": "^5.4.11"
+  }
+}
